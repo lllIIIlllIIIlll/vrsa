@@ -117,3 +117,4 @@ C:\Users\lllllIIIllIlIllI\source\git\VRSA\Windows Forms\VRSA GTA-V\obj\x86\64bit
 C:\Users\lllllIIIllIlIllI\source\git\VRSA\Windows Forms\VRSA GTA-V\obj\x86\64bit\VRSA GTA-V.csproj.CoreCompileInputs.cache
 C:\Users\lllllIIIllIlIllI\source\git\VRSA\Windows Forms\VRSA GTA-V\obj\x86\64bit\VRSA GTA-V.csproj.CopyComplete
 C:\Users\lllllIIIllIlIllI\source\git\VRSA\Windows Forms\VRSA GTA-V\obj\x86\64bit\VRSA GTA-V.exe
+C:\Users\lllllIIIllIlIllI\source\git\VRSA\Windows Forms\VRSA GTA-V\obj\x86\64bit\VRSA GTA-V.csprojAssemblyReference.cache

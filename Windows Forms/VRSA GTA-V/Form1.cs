@@ -38,6 +38,8 @@ namespace VRSA_GTA_V
             };
 
             pnlBrowser.Controls.Add(browser);
+
+            this.BringToFront();
         }
 
         private void BtnCleanSession_Click(object sender, EventArgs e)

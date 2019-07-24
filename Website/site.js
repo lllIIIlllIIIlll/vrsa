@@ -182,7 +182,7 @@ function AddBusiness(name) {
 
 function AddEvent(name, type, business) {
 	events.push({
-		Name: name + '1',
+		Name: name,
 		Type: type,
 		Business: business
 	});

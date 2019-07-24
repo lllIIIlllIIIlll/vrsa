@@ -28,20 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
+            this.pnlControls = new System.Windows.Forms.Panel();
             this.btnCleanSession = new System.Windows.Forms.Button();
             this.pnlBrowser = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
+            this.pnlControls.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // pnlControls
             // 
-            this.panel1.Controls.Add(this.btnCleanSession);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1430, 46);
-            this.panel1.TabIndex = 0;
+            this.pnlControls.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.pnlControls.Controls.Add(this.btnCleanSession);
+            this.pnlControls.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlControls.Location = new System.Drawing.Point(0, 684);
+            this.pnlControls.Name = "pnlControls";
+            this.pnlControls.Size = new System.Drawing.Size(1262, 46);
+            this.pnlControls.TabIndex = 0;
             // 
             // btnCleanSession
             // 
@@ -56,29 +58,31 @@
             // pnlBrowser
             // 
             this.pnlBrowser.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlBrowser.Location = new System.Drawing.Point(0, 46);
+            this.pnlBrowser.Location = new System.Drawing.Point(0, 0);
             this.pnlBrowser.Name = "pnlBrowser";
-            this.pnlBrowser.Size = new System.Drawing.Size(1430, 706);
+            this.pnlBrowser.Size = new System.Drawing.Size(1262, 684);
             this.pnlBrowser.TabIndex = 1;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1430, 752);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1262, 730);
             this.Controls.Add(this.pnlBrowser);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlControls);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMain";
             this.Text = "VRSA GTA-V";
             this.Load += new System.EventHandler(this.FrmMain_Load);
-            this.panel1.ResumeLayout(false);
+            this.pnlControls.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlControls;
         private System.Windows.Forms.Button btnCleanSession;
         private System.Windows.Forms.Panel pnlBrowser;
     }

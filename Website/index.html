@@ -46,20 +46,24 @@
 	</head>
 	
 	<body>
-	
+
 		<div id="site" class="hide" style="margin-top: 30px;">
+
+			<div id="background">
+				<div></div>
+			</div>
 
 			<div class="row">
 		
-					<div class="col-md-1"></div>
+					<div class="col-sm-1"></div>
 				
-					<div class="col-md-10">
+					<div class="col-sm-10">
 					
 						<div class="row">
 							
-							<div class="col-md-2"></div>
+							<div class="col-sm-2"></div>
 	
-							<div class="col-md-8">
+							<div class="col-sm-8">
 	
 								<label>Welcome, <span id="username" class="username"></span></label>
 
@@ -73,19 +77,17 @@
 	
 				</div>
 
-			<div style="width: 100%; text-align: center; height: 220px;">
-				<img height="200px" src="https://img.guildedcdn.com/team_images/avatars/3cf1f706a3c9afa2a0a693cd.jpg" />
+			<div class="logo-container">
+				<img class="logo" src="https://img.guildedcdn.com/team_images/avatars/3cf1f706a3c9afa2a0a693cd.jpg" />
 			</div>
 
 			<div class="row">
 
-				<div class="col-md-1"></div>
-			
-				<div class="col-md-10">
+				<div class="col-sm-12">
 
 					<div class="row">
 					
-						<div class="col-md-2">
+						<div class="col-sm-2">
 
 							<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
@@ -93,11 +95,11 @@
 									<span>Profile</span>
 								</a> -->
 
-								<a class="nav-link active" id="v-pills-ss-tab" data-toggle="pill" href="#v-pills-ss" role="tab" aria-controls="v-pills-ss" aria-selected="false">
+								<a class="nav-link" id="v-pills-ss-tab" data-toggle="pill" href="#v-pills-ss" role="tab" aria-controls="v-pills-ss" aria-selected="false">
 									<span>Supplies & Sales</span>
 								</a>
 
-								<a class="nav-link" id="v-pills-businesses-tab" data-toggle="pill" href="#v-pills-businesses" role="tab" aria-controls="v-pills-businesses" aria-selected="true">
+								<a class="nav-link active" id="v-pills-businesses-tab" data-toggle="pill" href="#v-pills-businesses" role="tab" aria-controls="v-pills-businesses" aria-selected="true">
 									<span>Businesses</span>
 								</a>
 
@@ -113,11 +115,11 @@
 
 						</div>
 					
-						<div class="col-md-8">
+						<div class="col-sm-8">
 
 							<div class="tab-content" id="v-pills-tabContent">
 
-								<div class="tab-pane fade" id="v-pills-businesses" role="tabpanel" aria-labelledby="v-pills-businesses-tab">
+								<div class="tab-pane fade active show" id="v-pills-businesses" role="tabpanel" aria-labelledby="v-pills-businesses-tab">
 										<table>
 
 											<thead>
@@ -171,7 +173,7 @@
 
 								</div>
 
-								<div class="tab-pane fade active show" id="v-pills-ss" role="tabpanel" aria-labelledby="v-pills-ss-tab">
+								<div class="tab-pane fade" id="v-pills-ss" role="tabpanel" aria-labelledby="v-pills-ss-tab">
 									<table>
 
 										<thead>

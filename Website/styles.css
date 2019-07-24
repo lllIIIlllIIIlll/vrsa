@@ -1,80 +1,42 @@
 table {
-    background-color: #EEEEEE;
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  box-shadow: 3px 3px 15px -5px rgb(228, 228, 228);
 }
 
-table tr:nth-child(even) {
-  background: #CEE0CC;
+table tr {
+  border-bottom: 1px solid rgb(228, 228, 228);
 }
 
 table td, table th {
-  border: 1px solid #4F7849;
-  padding: 7px;
+  padding: 10px;
 }
 
-
-
-table tbody td {
-  color: #4F7849;
-}
-table tbody td.empty {
-  font-size: 16px;
-  font-weight: normal;
-  font-style: italic;
-}
-
-
-
-table thead {
-  background: #4F7849;
-  background: -moz-linear-gradient(top, #7b9a76 0%, #60855b 66%, #4F7849 100%);
-  background: -webkit-linear-gradient(top, #7b9a76 0%, #60855b 66%, #4F7849 100%);
-  background: linear-gradient(to bottom, #7b9a76 0%, #60855b 66%, #4F7849 100%);
-  border-bottom: 1px solid #444444;
-}
-table thead th {
-  font-size: 16px;
-  font-weight: bold;
-  color: #FFFFFF;
-}
-
-
-table tfoot {
-  background-color: #6d8f68;
-}
-
-table tfoot label {
+select {
   width: 100%;
+  background-color: #f7f7f7;
+}
+
+th {
+  background-color: #3e3e3e;
   color: white;
-  background-color: #86a581;
-  height: 29px;
-  margin: 0;
-  padding: 3px;
-  padding-left: 5px;
 }
 
-table tfoot select, table tfoot input {
-  width: 100%;
+th, td {
+  border-right: 1px solid #f5f5f5;
+}
+
+input, select {
+  padding: 5px;
+  border: 1px solid #cacaca;
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: #86a581;
   padding: 3px;
-  color: white;
   outline: none;
   outline-color: red;
 }
 
-table img:hover {
-  filter: brightness(150%);
-  transform: scale(1.2);
-  cursor: pointer;
-}
-
 input {
-  padding: 5px;
-  border: 1px solid #cacaca;
   box-shadow: 2px 2px 15px -10px inset grey;
 }
 
@@ -128,36 +90,71 @@ input {
   background: rgb(113,201,113);
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+} 
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
 
-@media
-only screen and (max-width: 1500px) {
-  table, thead, tbody, th, td, tr {
-    display: block;
+#background {
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 310px;
+  z-index: -1;
+  border-bottom: 18px solid #e4e4e4;
+  box-shadow: inset 0 0 15px 0px black;
+}
+
+  #background div {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(2px);
+    width: 100%;
+    height: 100%;
   }
-  thead tr {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-  tr { border: 1px solid #ccc; }
-  td {
-    border: none;
-    border-bottom: 1px solid #eee;
-    position: relative;
-    padding-left: 200px;
-    margin-left: 150px;
-  }
-  td:before {
-    position: absolute;
-    top: 12px;
-    left: 6px;
-    width: 200px;
-    padding-right: 40px;
-    white-space: nowrap;
-    margin-left: -150px;
-  }
-  td:nth-of-type(1):before { content: "Option"; }
-  td:nth-of-type(2):before { content: "Description"; }
-  td:nth-of-type(3):before { content: "Type"; }
-  td:nth-of-type(4):before { content: "Default";}
+
+.logo {
+  border-radius: 25%;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 5px 0px #868686;
+  height: 200px;
+}
+
+.logo-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 35px;
+  margin-top: 140px;
+}
+
+table {
+  margin-bottom: 40px;
+}
+
+table img:hover {
+  filter: brightness(150%);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+tr:hover td, tr:hover th {
+  border-right: 1px solid #e0e0e0;
+}
+
+tr:hover select {
+  background-color: #e2e2e2;
 }

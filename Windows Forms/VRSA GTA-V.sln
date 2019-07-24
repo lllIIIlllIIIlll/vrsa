@@ -7,14 +7,35 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRSA GTA-V", "VRSA GTA-V\VR
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		64bit|Any CPU = 64bit|Any CPU
+		64bit|x64 = 64bit|x64
+		64bit|x86 = 64bit|x86
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.64bit|Any CPU.ActiveCfg = 64bit|x64
+		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.64bit|Any CPU.Build.0 = 64bit|x64
+		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.64bit|x64.ActiveCfg = 64bit|x64
+		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.64bit|x64.Build.0 = Release|x64
+		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.64bit|x86.ActiveCfg = 64bit|x86
+		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.64bit|x86.Build.0 = 64bit|x86
 		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.Debug|x64.ActiveCfg = Debug|x64
+		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.Debug|x64.Build.0 = Debug|x64
+		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.Debug|x86.ActiveCfg = Debug|x86
+		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.Debug|x86.Build.0 = Debug|x86
 		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.Release|x64.ActiveCfg = Release|x64
+		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.Release|x64.Build.0 = Release|x64
+		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.Release|x86.ActiveCfg = Release|x86
+		{4CBF5609-BEC2-4AC6-A78C-1B45E01C627F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

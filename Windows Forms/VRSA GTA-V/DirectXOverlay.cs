@@ -26,19 +26,21 @@ namespace Overlay.NET.GTAV.Directx
         private ProcessSharp _processSharp;
         private int fps;
 
+        private string processName;
+
         BackgroundWorker bw = new BackgroundWorker();
 
-        public DirectXOverlay()
+        public DirectXOverlay(string ProcessName)
         {
             fps = 60;
+
+            processName = ProcessName;
 
             directXOverlay = new DirectXOverlayPlugin();
         }
 
         public void Start()
         {
-            var processName = "gta5";
-
             var process = System.Diagnostics.Process.GetProcessesByName(processName).FirstOrDefault();
             if (process == null)
             {
@@ -109,8 +111,6 @@ namespace Overlay.NET.GTAV.Directx
 
             _tickEngine.PreTick += OnPreTick;
             _tickEngine.Tick += OnTick;
-
-            System.Diagnostics.Process.Start("file:///C:/Users/lllllIIIllIlIllI/Downloads/vrsa/index.html");
         }
 
         private void InitializeData()

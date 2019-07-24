@@ -26,6 +26,7 @@ namespace Overlay.NET.GTAV.Directx
         private ProcessSharp _processSharp;
         private int fps;
 
+
         private string processName;
 
         BackgroundWorker bw = new BackgroundWorker();
@@ -77,6 +78,7 @@ namespace Overlay.NET.GTAV.Directx
         private IFirebaseClient _client;
         private Stopwatch _watch;
         private System.Timers.Timer _dataTimer;
+        private System.Timers.Timer _dataUpdateTimer;
         private User _user;
         private float _rotation;
         private int
@@ -131,6 +133,24 @@ namespace Overlay.NET.GTAV.Directx
             _dataTimer = new System.Timers.Timer(5000);
             _dataTimer.Elapsed += _timer_Elapsed;
             _dataTimer.Start();
+
+            _dataUpdateTimer = new System.Timers.Timer(1000);
+            _dataUpdateTimer.Elapsed += _dataUpdateTimer_Elapsed;
+            _dataUpdateTimer.Start();
+        }
+
+        private void _dataUpdateTimer_Elapsed(object sender, ElapsedEventArgs e)
+        {
+            foreach (var business in _user.Businesses)
+            {
+                switch (business.Name)
+                {
+                    case "Meth":
+                        var total = (decimal)5 * 60 * 60;
+                        business.Sale += (100 / total);
+                        break;
+                }
+            }
         }
 
         public void InitializeStyles()
@@ -180,13 +200,13 @@ namespace Overlay.NET.GTAV.Directx
 
             var businessHeight = 60;
 
-            var j = _user.Businesses.Count();
+            var businessCount = _user.Businesses.Count();
 
             OverlayWindow.Graphics.DrawText(baseX, baseY - 20, "FPS: " + _fps, _font, _whiteBrush, false);
 
-            OverlayWindow.Graphics.FillRectangle(baseX - 5, baseY - 25, barWidth + 5, j * businessHeight + 50, _backgroundBrush);
+            OverlayWindow.Graphics.FillRectangle(baseX - 5, baseY - 25, barWidth + 5, businessCount * businessHeight + 50, _backgroundBrush);
 
-            for (int i = 0; i < j; i++)
+            for (int i = 0; i < businessCount; i++)
             {
                 var business = _user.Businesses[i];
 
@@ -199,7 +219,7 @@ namespace Overlay.NET.GTAV.Directx
                 OverlayWindow.Graphics.DrawBarV(baseX, baseY + (i * businessHeight) + 34 + barHeight, barWidth, barHeight, (float)business.Supply, 1, _exteriorBrush, _blueSupplyBrush);
             }
 
-            OverlayWindow.Graphics.DrawText(baseX, baseY + (j * businessHeight), "Greenlight on Gustav-VRSA", _fontBold, _redBrush);
+            OverlayWindow.Graphics.DrawText(baseX, baseY + (businessCount * businessHeight), "Greenlight on Gustav-VRSA", _fontBold, _redBrush);
         }
 
         private string CalculateBusinessTime(Business business)
@@ -211,6 +231,7 @@ namespace Overlay.NET.GTAV.Directx
                     var saleRemaining = total * ((100 - business.Sale) / 100);
                     return SecondsToTime((int)Math.Round(saleRemaining));
             }
+
             return "";
         }
 

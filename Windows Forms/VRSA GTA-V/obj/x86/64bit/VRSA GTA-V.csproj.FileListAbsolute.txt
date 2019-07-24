@@ -111,7 +111,6 @@ C:\Users\lllllIIIllIlIllI\source\git\VRSA\Windows Forms\VRSA GTA-V\bin\x86\64bit
 C:\Users\lllllIIIllIlIllI\source\git\VRSA\Windows Forms\VRSA GTA-V\bin\x86\64bit\SharpDX.DXGI.pdb
 C:\Users\lllllIIIllIlIllI\source\git\VRSA\Windows Forms\VRSA GTA-V\bin\x86\64bit\SharpDX.DXGI.xml
 C:\Users\lllllIIIllIlIllI\source\git\VRSA\Windows Forms\VRSA GTA-V\obj\x86\64bit\VRSA GTA-V.csproj.App.config
-C:\Users\lllllIIIllIlIllI\source\git\VRSA\Windows Forms\VRSA GTA-V\obj\x86\64bit\VRSA GTA-V.csprojAssemblyReference.cache
 C:\Users\lllllIIIllIlIllI\source\git\VRSA\Windows Forms\VRSA GTA-V\obj\x86\64bit\VRSA_GTA_V.frmMain.resources
 C:\Users\lllllIIIllIlIllI\source\git\VRSA\Windows Forms\VRSA GTA-V\obj\x86\64bit\VRSA_GTA_V.Properties.Resources.resources
 C:\Users\lllllIIIllIlIllI\source\git\VRSA\Windows Forms\VRSA GTA-V\obj\x86\64bit\VRSA GTA-V.csproj.GenerateResource.cache

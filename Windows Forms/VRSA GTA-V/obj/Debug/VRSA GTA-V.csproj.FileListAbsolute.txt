@@ -1,0 +1,78 @@
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\VRSA GTA-V.exe.config
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\VRSA GTA-V.exe
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\VRSA GTA-V.pdb
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\FireSharp.dll
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\Overlay.NET.dll
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\Process.NET.dll
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.dll
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\Overlay.NET.pdb
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\Overlay.NET.dll.config
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\Process.NET.pdb
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\Process.NET.xml
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.pdb
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA GTA-V.csproj.App.config
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA_GTA_V.frmMain.resources
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA_GTA_V.Properties.Resources.resources
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA GTA-V.csproj.GenerateResource.cache
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA GTA-V.csproj.CoreCompileInputs.cache
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA GTA-V.csproj.CopyComplete
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA GTA-V.exe
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA GTA-V.pdb
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.DXGI.dll
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.Direct2D1.pdb
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.DXGI.pdb
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.DXGI.xml
+C:\Users\lllllllllllllllllll\source\repos\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA GTA-V.csprojAssemblyReference.cache
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\VRSA GTA-V.exe.config
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\VRSA GTA-V.exe
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\VRSA GTA-V.pdb
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\FireSharp.dll
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\Newtonsoft.Json.dll
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\Overlay.NET.dll
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\Process.NET.dll
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.dll
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\System.Net.Http.Extensions.dll
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\System.Net.Http.Primitives.dll
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.Direct2D1.dll
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.DXGI.dll
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\Newtonsoft.Json.xml
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\Overlay.NET.pdb
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\Overlay.NET.dll.config
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\Process.NET.pdb
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\Process.NET.xml
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.pdb
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\System.Net.Http.Extensions.xml
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\System.Net.Http.Primitives.xml
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.Direct2D1.pdb
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.Direct2D1.xml
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.DXGI.pdb
+C:\Test\VRSA GTA-V\VRSA GTA-V\bin\Debug\SharpDX.DXGI.xml
+C:\Test\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA GTA-V.csproj.App.config
+C:\Test\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA GTA-V.csprojAssemblyReference.cache
+C:\Test\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA_GTA_V.frmMain.resources
+C:\Test\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA_GTA_V.Properties.Resources.resources
+C:\Test\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA GTA-V.csproj.GenerateResource.cache
+C:\Test\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA GTA-V.csproj.CoreCompileInputs.cache
+C:\Test\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA GTA-V.csproj.CopyComplete
+C:\Test\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA GTA-V.exe
+C:\Test\VRSA GTA-V\VRSA GTA-V\obj\Debug\VRSA GTA-V.pdb

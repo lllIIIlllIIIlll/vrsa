@@ -1,0 +1,163 @@
+table {
+    background-color: #EEEEEE;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even) {
+  background: #CEE0CC;
+}
+
+table td, table th {
+  border: 1px solid #4F7849;
+  padding: 7px;
+}
+
+
+
+table tbody td {
+  color: #4F7849;
+}
+table tbody td.empty {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+
+table thead {
+  background: #4F7849;
+  background: -moz-linear-gradient(top, #7b9a76 0%, #60855b 66%, #4F7849 100%);
+  background: -webkit-linear-gradient(top, #7b9a76 0%, #60855b 66%, #4F7849 100%);
+  background: linear-gradient(to bottom, #7b9a76 0%, #60855b 66%, #4F7849 100%);
+  border-bottom: 1px solid #444444;
+}
+table thead th {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+
+table tfoot {
+  background-color: #6d8f68;
+}
+
+table tfoot label {
+  width: 100%;
+  color: white;
+  background-color: #86a581;
+  height: 29px;
+  margin: 0;
+  padding: 3px;
+  padding-left: 5px;
+}
+
+table tfoot select, table tfoot input {
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #86a581;
+  padding: 3px;
+  color: white;
+  outline: none;
+  outline-color: red;
+}
+
+table img:hover {
+  filter: brightness(150%);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid #cacaca;
+  box-shadow: 2px 2px 15px -10px inset grey;
+}
+
+.hide {
+  display: none;
+}
+
+.inset {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  background-color: whitesmoke;
+  box-shadow: inset 5px 6px 15px -10px grey;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  text-decoration: underline !important;
+  color: black;
+}
+
+.nav-link.active {
+  background-color: transparent !important;
+  color: #0d7700 !important;
+  font-weight: bold;
+}
+
+.rangeslider__fill.blue {
+  background: #22b8ff !important;
+}
+.rangeslider__fill.green {
+  background: #71ef6f !important;
+}
+
+.rangeslider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.rangeslider_fill {
+  box-shadow: inset 0px 2px 4px -2px rgb(0, 0, 0)!important;
+}
+
+.sale .rangeslider__fill {
+  background: rgb(92,180,226);
+}
+
+.supply .rangeslider__fill {
+  background: rgb(113,201,113);
+}
+
+
+@media
+only screen and (max-width: 1500px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  tr { border: 1px solid #ccc; }
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 200px;
+    margin-left: 150px;
+  }
+  td:before {
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    width: 200px;
+    padding-right: 40px;
+    white-space: nowrap;
+    margin-left: -150px;
+  }
+  td:nth-of-type(1):before { content: "Option"; }
+  td:nth-of-type(2):before { content: "Description"; }
+  td:nth-of-type(3):before { content: "Type"; }
+  td:nth-of-type(4):before { content: "Default";}
+}
